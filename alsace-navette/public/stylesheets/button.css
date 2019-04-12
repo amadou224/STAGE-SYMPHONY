@@ -1,0 +1,27 @@
+.btn-primary {
+  color: black;
+  background-color: #fcdd10;
+  border-color: #fcdd10;
+}
+  
+.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle {
+  color: #fff;
+  background-color: #FFE32A;
+  border-color: #FFE32A;
+}
+
+.btn-yellow:hover {
+  color: black;
+}
+
+.btn-secondary {
+  color: #fff;
+  background-color: #2168d9;
+  border-color: #2168d9;
+}
+  
+.btn-secondary:not(:disabled):not(.disabled).active, .btn-secondary:not(:disabled):not(.disabled):active, .show>.btn-secondary.dropdown-toggle {
+  color: #fff;
+  background-color: #2168d9;
+  border-color: #2168d9;
+}

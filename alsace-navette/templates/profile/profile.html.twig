@@ -1,0 +1,60 @@
+{% extends 'base.html.twig' %}
+
+{% block head %}
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="generator" content="Jekyll v3.8.5">
+
+{% endblock %}
+
+{% block stylesheets %}
+<link rel="stylesheet" href="stylesheets/base.css">
+{% endblock %}
+
+{% block body %}
+
+
+
+
+<div class="container mt-2">
+    <h1 class="text-center">Bonjour {{ user.nom }} {{ user.prenom }}</h1>
+    <h3 class="text-center">Voici votre liste de réservations</h3>
+
+    <table class="table">
+        <thead class="black white-text">
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">Horaires</th>
+                <th scope="col">Nombre Passager</th>
+                <th scope="col">Date réservation</th>
+                <th scope="col">Date de départ</th>
+                <th scope="col">Point de prise</th>
+
+            </tr>
+        </thead>
+        <tbody>
+
+            {% for reservation in user.reservations %}
+            <tr>
+                <th scope="row">{{ reservation.id }}</th>
+                <td>{{ reservation.horraire }}</td>
+                <td>{{ reservation.nbPassager }}</td>
+                <td>{{ reservation.dateReservation|date('d/m/Y') }}</td>
+                <td>{{ reservation.dateDepart|date('d/m/Y') }}</td>
+                <td>{{ reservation.pointDePrise }}</td>
+                <td>{{ reservation.departDestination.depart }}</td>
+
+
+
+            </tr>
+
+            {% endfor %}
+        </tbody>
+    </table>
+</div>
+
+
+
+
+{% endblock %}

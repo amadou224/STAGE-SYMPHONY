@@ -1,0 +1,17 @@
+
+
+.img-top-body {
+    padding: 10px;
+    border: 10px dotted;
+    border-color: #fcdd10;
+}
+
+#map {
+    height: 180px;
+}
+
+input[type=radio] {
+    width: 20px;
+    height: 20px;
+}
+
