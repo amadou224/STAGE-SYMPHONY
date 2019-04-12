@@ -1,4 +1,4 @@
-connection ssh : ssh u43549464@home190186549.1and1-data.host 
+connection ssh : ssh u435@home19.1and1-data.host 
 
 mettre le site en ligne a jour lancer la command : "./deploy" dans le terminal dans le dossier du projet
 
