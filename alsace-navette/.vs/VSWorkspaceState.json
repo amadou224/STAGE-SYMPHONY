@@ -1,0 +1,17 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\.idea",
+    "\\bin",
+    "\\config",
+    "\\public",
+    "\\templates",
+    "\\templates\\aeroport",
+    "\\templates\\home",
+    "\\templates\\profile",
+    "\\tests",
+    "\\translations"
+  ],
+  "SelectedNode": "\\public\\index.php",
+  "PreviewInSolutionExplorer": false
+}
