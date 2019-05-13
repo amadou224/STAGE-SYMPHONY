@@ -1,6 +1,12 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\alsace-navette",
+    "\\alsace-navette\\public",
+    "\\alsace-navette\\templates",
+    "\\alsace-navette\\templates\\aeroport",
+    "\\alsace-navette\\templates\\royalpalace"
   ],
+  "SelectedNode": "\\alsace-navette\\templates\\base.html.twig",
   "PreviewInSolutionExplorer": false
 }
